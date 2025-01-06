@@ -1,0 +1,24 @@
+.stHorizontalBlock > div > div > div > .stVerticalBlock > .stElementContainer > .stButton {
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.stHorizontalBlock > div > div > div > .stVerticalBlock > .stElementContainer > .stButton > button {
+    padding: 0.5rem;
+}
+
+.stHorizontalBlock > div > div > div > .stVerticalBlock > .stElementContainer > .stButton > button > div > p {
+    font-size: 0.75rem;
+}
+
+.stButton > button,
+.stDownloadButton > button {
+    width: 100%;
+}
+
+label p {
+    font-size: 2rem;
+    font-weight: 600;
+}
