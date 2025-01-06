@@ -52,8 +52,8 @@ def start_session():
 
 def generate_time_slots(interval_minutes=15):
     time_slots = []
-    start_time = datetime.strptime('00:00', '%H:%M')
-    end_time = datetime.strptime('23:59', '%H:%M')
+    start_time = datetime.strptime('07:00', '%H:%M')
+    end_time = datetime.strptime('19:00', '%H:%M')
 
     current_time = start_time
 
